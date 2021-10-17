@@ -26,7 +26,7 @@ export default function Home() {
           <h2>Avax news API</h2>
           <p>Une API pour récupérer les premiers articles du site web avaxnews par catégorie. Réalisé avec Puppeteer et Node.js, hébergé sur heroku.</p>
           <a href="https://github.com/yoshua70/avaxnewsapi.git" target="blank">code source →</a>
-          <a href="https://avaxnewsapi.herokuapp.com/category/wow" target="blank">tester →</a>
+          <a href="https://avaxnewsapi.herokuapp.com/" target="blank">tester →</a>
         </span>
       </Box>
       <Box>
