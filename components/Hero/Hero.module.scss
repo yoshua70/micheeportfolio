@@ -1,0 +1,13 @@
+@import '../../styles/variables.scss';
+@import '../../styles/mixins/container.scss';
+
+.hero {
+  @include FlexColumn;
+  justify-content: center;
+  min-height: 40vh;
+  gap: 0.5rem;
+
+  h1 {
+    color: $main;
+  }
+}

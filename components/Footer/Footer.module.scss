@@ -1,0 +1,9 @@
+@import '../../styles/variables.scss';
+@import '../../styles/mixins/container.scss';
+
+.footer {
+  @include FlexColumn;
+  align-items: center;
+  justify-content: center;
+  min-height: 20vh;
+}

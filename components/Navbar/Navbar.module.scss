@@ -1,0 +1,23 @@
+@import '../../styles/variables.scss';
+@import '../../styles/mixins/container.scss';
+
+.nav {
+  @include FlexRow;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1rem;
+
+  .navlinks {
+    @include FlexRow;
+    gap: 0.5rem;
+
+    
+  }
+  .navlink {
+    text-decoration: none;
+  }
+
+  .brand {
+    font-weight: 600;
+  }
+}

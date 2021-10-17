@@ -1,0 +1,40 @@
+@import '../../styles/variables.scss';
+@import '../../styles/mixins/container.scss';
+
+.box {
+  @include FlexColumn;
+  gap: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 1rem;
+  border-radius: 0.5rem;
+
+  h2 {
+    font-family: 'Roboto Condensed', monospace;
+    font-size: 2rem;
+  }
+  p, a {
+    border-left: 0.5rem solid $main;
+    padding-left: 0.5rem;
+    line-height: 1.5rem;
+  }
+  a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    max-width: fit-content;
+    font-style: italic;
+  }
+  span {
+    @include FlexColumn;
+    gap: 0.5rem;
+    border-left: 0.5rem solid $main;
+    a, p {
+      border-left: none;
+    }
+    h2 {
+      font-size: 1.8rem;
+    }
+  }
+}

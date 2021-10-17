@@ -1,0 +1,11 @@
+@mixin heading_1 {
+  font-family: 'Roboto Condensed', monospace, sans-serif;
+  font-weight: 700;
+  font-size: 4rem;
+}
+
+@mixin heading_2 {
+  font-family: 'Cabin', sans-serif;
+  font-weight: 400;
+  font-size: 2.5rem;
+}

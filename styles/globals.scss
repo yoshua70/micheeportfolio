@@ -1,0 +1,21 @@
+@import './reset.scss';
+@import './fonts.scss';
+@import './variables.scss';
+@import './mixins/heading.scss';
+@import './mixins/paragraph.scss';
+
+* {
+  color: $black;
+}
+
+h1 {
+  @include heading_1;
+}
+
+h2 {
+  @include heading_2;
+}
+
+p, a, li {
+  @include paragraph;
+}

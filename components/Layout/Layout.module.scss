@@ -1,0 +1,10 @@
+@import '../../styles/variables.scss';
+@import '../../styles/mixins/container.scss';
+
+.container {
+  @include FlexColumn;
+  margin: 0 auto;
+  background-color: $white;
+  max-width: 700px;
+  padding: 0 0.5rem;
+}
