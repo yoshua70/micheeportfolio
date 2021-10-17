@@ -5,6 +5,8 @@ import Box from '../components/Box/Box'
 import Image from 'next/image'
 
 export default function Home() {
+  const bio = `Je suis un développeur fullstack basé en Côte d'Ivoire passioné par la réalisation d'applications web pour les entrepreneurs/business. Si je ne suis pas en train de coder alors je suis sur un Rubik's cube ou parlant de Star wars avec mes potes.`;
+  const interests = `Star wars - Rubik's Cube - Touchtyping`;
   return (
     <Layout>
       <Head>
@@ -18,7 +20,7 @@ export default function Home() {
       </Hero>
       <Box id="bio">
         <h2>Bio 😎</h2>
-        <p>Je suis un développeur fullstack basé en Côte d&appos;Ivoire passioné par la réalisation d&appos;applications web pour les entrepreneurs/business. Si je ne suis pas en train de coder alors je suis sur un Rubik&appos;s cube ou parlant de Star wars avec mes potes.</p>
+        <p>{bio}</p>
       </Box>
       <Box id="realisations">
         <h2>Réalisations 🧑🏽‍🚀</h2>
@@ -37,7 +39,7 @@ export default function Home() {
       </Box>
       <Box>
         <h2>❤️</h2>
-        <p>Star wars - Rubik&appos;s Cube - Touchtyping</p>
+        <p>{interests}</p>
       </Box>
       <Box id="contact">
         <h2>On se chop ?</h2>
